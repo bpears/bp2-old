@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 26, 2014, 6:56:23 AM
+    Author     : Bryan
+*/
+*{ padding: 0; margin: 0; }
+
+
+
+html {
+    background: url("plane.JPG") no-repeat center center fixed;
+    width:100%;
+    height:100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.pic {
+    position:fixed;
+    top: -50%;
+    left:-50%;
+    width:200%;
+    height:200%;
+}
+
+.pic img {
+    position:absolute;
+    margin:auto;
+    min-width: 50%;
+    min-height: 50%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+@media only screen and (max-width : 600px){
+
+    body{
+        width:50%;
+        height:auto;
+    }
+}
+
+.myName {
+    font-family: 'Poiret One', serif;
+    color: black;
+    font-size: 50px;
+    position:fixed;
+    top: 1%;
+    left:5%;
+    width:100%;
+    height:0%;
+    font-weight: 900;
+    z-index: 1;
+}
+
+.rotate{
+    display:block;
+    position:fixed;
+    top: 5%;
+    right:5%;
+    width:0%;
+    height:0%;
+    color:white;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid red;
+    z-index: 2;
+
+}  
+
+.rotate:hover {
+    -webkit-transition: -webkit-transform 0.4s ease-out;
+    -moz-transition: -moz-transform 0.4s ease-out;
+    transition: transform 0.4s ease-out;
+    -webkit-transform: rotateZ(180deg);
+    -moz-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+
+}
+
+#menu {
+    background:white;
+    display:block;
+    position:fixed;
+    top: 0%;
+    right:0%;
+    width:100%;
+    height:75px;
+    z-index: 0;
+}
+.navigation {
+
+    text-align: center;
+    padding-top: 10px;
+}
+.navigation li{
+    display:inline-block;
+    padding: 10px;
+} 
+
+.navigation a {
+    text-decoration: none;
+    font-family: 'Poiret One', serif;
+    color:grey;
+}
+
+
+/*a {    this is if you wanted it to be a circle
+
+    border-radius:50%;
+    border:2px solid white;
+    line-height: 100px;
+    position:fixed;
+    top: 5%;
+    right:5%;
+    width:20%;
+    height:20%;
+    height:100px;
+    width:100px;;  
+    color:white;
+    text-align: center; 
+    background-color:rgba(169,179,242, 0.7);  //background-color:rgba(223,51,45, 0.7);
+    z-index: 1;
+    padding:15px;
+    text-decoration: none;
+}*/
+
+
+
+
+
+
+
+

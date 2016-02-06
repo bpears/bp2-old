@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+        <link rel = "stylesheet" type = "text/css" href = "contact.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type= "text/javascript" src="bp2.js"></script>
+    </head>
+
+    <body>
+
+        <header> </header> 
+
+        <div class="navigation">
+            <div id="myName">Bryan Pearson</div>
+            <a href ="about.html" class="aboutButton"> about </a>
+            <a href ="index.html" class="homeButton"> Home </a>
+            <a href ="wow.html" class="wowButton">Wow</a>
+        </div> 
+
+        <div class ="form">
+            <form name="form" action = "contact.php" onsubmit="return(validate());" method = "post">
+                <label for="firstname">First name -</label>
+                <input type="text" id="firstname" name="firstname"  placeholder="James"  maxlength = "35" size = "35"/><br />
+                <label for="lastname">Last name -</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Smith" maxlength = "35" size = "35"/><br />
+                <label for="companyname">Company name -</label>
+                <input type="text" id="companyname" name="companyname"  placeholder="Your Company" maxlength = "35" size = "35"/><br />
+                <label for="telephone">Telephone -</label>
+                <input type="text" id="telephone" name="telephone" placeholder = "262-555-5555"  maxlength = "35" size = "35"/><br />
+                <label for="email">Email address -</label>
+                <input type="text" id="email" name="email" placeholder = "example@email.com"  maxlength = "35" size = "35"/><br />
+                <label for="other">Additional information - </label>
+                <textarea id="other" name="other"></textarea><br />
+                <input type="reset" onclick="resetForm()" class="reset_form" value="Clear" />
+                <input type="submit" name="submitButton" class="submit_form" value="Submit"/> 
+                
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
+

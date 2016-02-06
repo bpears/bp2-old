@@ -1,0 +1,150 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 30, 2015, 4:31:12 PM
+    Author     : Bryan
+*/
+
+
+
+body {
+    background-color: white;  
+    width:75%;
+    height: 100%;
+    margin:0 auto;
+}
+
+#myName {
+    font-family: 'Poiret One', serif;
+    color: grey;
+    font-size: 4em;
+    position:absolute;
+    top: .75em;
+    left: 25%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    font-weight: 500;
+    z-index: 2;
+}
+
+.homeButton {                                            
+     border-radius:50%;
+    border:2px solid white;
+    line-height: 50px;
+    position:absolute;
+    top:.85em;
+    right:23%;
+    width:3em;
+    height:3em;
+    color:white;
+    text-align: center; 
+    background-color:orange; 
+    z-index: 1;
+    padding:.95em;
+    font-family: 'Poiret One', serif;
+}
+
+
+.contactButton {
+    border-radius:50%;
+    border:2px solid white;
+    line-height: 50px;
+    position:absolute;
+    top:.85em;
+    right:12%;
+    width:3em;
+    height:3em;
+    color:white;
+    text-align: center; 
+    background-color:orange; 
+    z-index: 1;
+    padding:.95em;
+    font-family: 'Poiret One', serif;
+}
+.wowButton {
+    border-radius:50%;
+    border:2px solid white;
+    line-height: 50px;
+    position:absolute;
+    top:.85em;
+    right:1%;
+    width:3em;
+    height:3em;
+    color:white;
+    text-align: center; 
+    background-color:orange; 
+    z-index: 1;
+    padding:.95em;
+    font-family: 'Poiret One', serif;
+}
+
+.navigation {
+    margin-top: 20px;
+    background: white;
+    display:block;
+    padding: 1em;
+    position: absolute;
+    top:5em;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    height:5em;
+    width: 50em;
+    border: 2px solid gray;
+    z-index: 1;
+}
+
+.about {
+    font-family: helvetica;
+    background-color: white;
+    border: 2px solid gray;
+    width:50em;
+    height: 50em;
+    padding: 1em;
+    position: absolute;
+    top: 37em;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+
+}
+.about p {
+    text-decoration-style: solid;
+    width: 75%;
+    margin-left: 75px;
+    margin-bottom: 25px;
+    position: relative;
+
+}
+
+h1 {
+    color:black;
+    margin-left: 75px;
+    font-family: 'Poiret One', serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: orange;
+}
+a:hover {
+    background-color:grey;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 512px) {
+    body {
+        width:100%;
+        height:auto;
+    }
+}    
